@@ -1,7 +1,7 @@
 import React from 'react';
 import {excurse} from "./inform";
 import '../style.css'
-import Header from "./Header";
+import pic from "../img.jpg"
 
 const ExampleExcurtion = () => {
     return (

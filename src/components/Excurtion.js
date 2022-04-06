@@ -5,6 +5,7 @@ const Excurtion = () => {
     return (
         <div>
             <br/><br/><br/><br/>
+            <img src={excurse.image} alt = "img"/>
             <h1>{excurse.name}</h1>
             <h5><i>{excurse.description}</i></h5>
             <h4><p>{excurse.info.city}</p>
@@ -16,7 +17,7 @@ const Excurtion = () => {
             <table>
                 <thead>
                 <tr>
-                    <th><img src={excurse.img} alt = "img"/></th>
+                    <th><img src={excurse.image} alt = "img"/></th>
                     <th>
                         <h4></h4>
                         <h5>{excurse.place}</h5>

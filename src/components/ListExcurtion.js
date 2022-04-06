@@ -1,5 +1,6 @@
 import React from 'react';
 import ExampleExcurtion from "./ExampleExcurtion";
+import "../img.jpg"
 
 const ListExcurtion = () => {
     return (
